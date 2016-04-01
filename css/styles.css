@@ -1,0 +1,57 @@
+#result {
+  display: none;
+  background-image: url(../img/paddle.png);
+  background-size: cover;
+  text-align: center;
+}
+.output{
+  padding-top: 50px;
+}
+
+ .instruct {
+   background: rgba(253, 255, 250);
+   background:rgba(253, 255, 250, 0.9);
+
+ }
+.form-group{
+  text-align: center;
+  background: rgba(253, 255, 250);
+  background:rgba(253, 255, 250, 0.9);
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+
+}
+
+body {
+  background-image: url(../img/uberpong.jpg);
+  background-size: cover;
+  font-size: 20px;
+
+
+}
+p {
+font-size: 20px;
+color: white;
+font-weight: bold;
+}
+.ping-pong-output {
+color: #21B660;
+font-weight: bolder;
+font-size: 40px;
+}
+
+.ping-output {
+color: blue;
+font-weight: bolder;
+font-size: 30px;
+}
+
+.pong-output {
+color: yellow;
+font-weight: bolder;
+font-size: 30px;
+}
