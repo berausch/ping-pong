@@ -1,6 +1,7 @@
 var number
 var numbers = []
 var pingPong = function(input){
+  numbers
   for(var i = 1; i <= input; i++){
     number = ("<p>" + i + "</p>");
     if(i%3 ===  0){
@@ -34,5 +35,7 @@ $(function(){
   });
   $("#result").click(function(){
     $(".output").empty();
+    numbers = []
+    $("#result").hide();
   });
 });

@@ -1,9 +1,12 @@
 #result {
   display: none;
-  background-image: url(../img/paddle.png);
-  background-size: cover;
+  background-color: #eb1c23;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
+
 .output{
   padding-top: 50px;
 }
@@ -28,10 +31,11 @@
 
 body {
   background-image: url(../img/uberpong.jpg);
-  background-size: cover;
+  background-size: 530px 530px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 20px;
-
-
+  text-align: center;
 }
 p {
 font-size: 20px;
