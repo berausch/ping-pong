@@ -19,18 +19,16 @@ var pingPong = function(input){
 
 
 
-
-
-
 $(function(){
   $("#ping-pong").submit(function(event){
     event.preventDefault();
     $("#result").show();
+    numbers = []
 
     var numberInput = parseInt($("#number-input").val());
     var result = pingPong(numberInput);
 
-    $(".output").append(result);
+    $(".output").empty().append(result);
 
   });
   $("#result").click(function(){
