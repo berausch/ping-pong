@@ -21,13 +21,39 @@
   text-align: center;
   background: rgba(253, 255, 250);
   background:rgba(253, 255, 250, 0.9);
-  width: 200px;
+  width: 300px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .btn {
+background-color: white;
+font-size: 20px;
+font-weight: bold;
+border-color: blue;
+border-width: 5px;
+border-style: solid;
+}
 
+label {
+  font-size: 30px;
+  font-weight: bold;
+  width: 300px;
+  text-align: center;
+}
+
+#number-input {
+background-color: white;
+height: 50px;
+font-size: 30px;
+margin-left: 50px;
+margin-right: 50px;
+width: 200px;
+text-align: center;
+font-weight: bold;
+border-color: blue;
+border-width: 3px;
+border-style: solid;
 }
 
 body {
